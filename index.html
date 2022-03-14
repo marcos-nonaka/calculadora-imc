@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora de IMC</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <p>IMC é a sigla para Índice de Massa Corporal, que é um cálculo que serve para avaliar se a pessoa está dentro do seu peso ideal em relação à altura.</p>
+        <p>O cálculo do IMC deve ser feito usando a seguinte fórmula matemática: Peso ÷ (altura x altura).</p>
+    </div>
+    <hr>
+    <div class="container">
+        <h2>CLASSIFICAÇÃO DE PESO PELO IMC PARA ADULTOS</h2>
+        <table>
+            <tr>
+                <th>IMC</th>
+                <th>CLASSIFICAÇÃO</th>
+            </tr>
+            <tr>
+                <td id="tb-l1"><18,5</td>
+                <td>Baixo peso</td>
+            </tr>
+            <tr>
+                <td id="tb-l2">18,5 a 24,9</td>
+                <td>Peso normal</td>
+            </tr>
+            <tr>
+                <td id="tb-l3">25,0 a 29,9</td>
+                <td>Excesso de peso</td>
+            </tr>
+            <tr>
+                <td id="tb-l4">30,0 a 34,9</td>
+                <td>Obesidade de Classe 1</td>
+            </tr>
+            <tr>
+                <td id="tb-l5">35,0 a 39,9</td>
+                <td>Obesidade de Classe 2</td>
+            </tr>
+            <tr>
+                <td id="tb-l6">>= 40</td>
+                <td>Obesidade de Classe 3</td>
+            </tr>
+        </table>
+    </div>
+    <h3>Referência</h3>
+    <p>DEPARTAMENTO DE MEDICINA SOCIAL. Universidade Federal de Pelotas (UFPEL). Disponível em: <a href="https://dms.ufpel.edu.br/casca/modulos/imc-calc#comp/imc-main" target="_blank">https://dms.ufpel.edu.br/casca/modulos/imc-calc#comp/imc-main</a>. Acesso em: 2022.</p>
+    <hr>
+    <div class="container">
+        <h2>Calcule aqui o IMC</h2>
+        <form>
+            <p>Informe o peso: <input id="mass" type="number" /></p>
+            <p>Informe a altura: <input id="height" type="number" /></p>
+            <input type="button" value="Calcular" onclick="bmi()">
+        </form>
+        <br>
+        <div id="result">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

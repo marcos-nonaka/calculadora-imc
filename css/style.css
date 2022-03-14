@@ -1,0 +1,49 @@
+.container {
+    text-align: center;
+}
+
+hr {
+    border: solid;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid;
+    text-align: center;
+    padding: 5px;
+}
+
+#tb-l1 {
+    background-color: #FFF7C5;
+}
+
+#tb-l2 {
+    background-color: #F7E09F;
+}
+
+#tb-l3 {
+    background-color: #F9BF73;
+}
+
+#tb-l4 {
+    background-color: #FBB03B;
+}
+
+#tb-l5 {
+    background-color: #F7931E;
+}
+
+#tb-l6 {
+    background-color: #F15A24;
+}
+
+#result {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
